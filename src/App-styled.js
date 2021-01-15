@@ -29,15 +29,14 @@ export const Wrapper = styled.div`
   }
 `;
 export const Nav = styled.div`
-  background-color: red;
+  background-color: #17a680;
   grid-area: Nav;
 `;
 export const Sidebar = styled.div`
-  background-color: green;
+  background-color: #a69317;
   grid-area: Sidebar;
 `;
 export const Main = styled.div`
-  background-color: brown;
   grid-area: Main;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -48,19 +47,19 @@ export const Main = styled.div`
 `;
 
 export const Content1 = styled.div`
-  background-color: yellow;
+  background-color: #5d7a78;
   grid-area: Content1;
 `;
 export const Content2 = styled.div`
-  background-color: gray;
+  background-color: #5d7a78;
   grid-area: Content2;
 `;
 export const Content3 = styled.div`
-  background-color: blue;
+  background-color: #5d7a78;
   grid-area: Content3;
 `;
 export const Footer = styled.div`
-  background-color: pink;
+  background-color: #a69f17;
   grid-area: Footer;
 `;
 export const Button = styled.button`
@@ -69,13 +68,14 @@ export const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 20px;
   margin-top: ${(props) => (props.primary ? "5px" : "0px")};
+  background-color: snow;
 `;
 export const H2 = styled.h2`
   margin-top: ${(props) => (props.primary ? "20px" : "0px")};
   font-size: 2rem;
 `;
 export const Header = styled.div`
-  background-color: yellow;
+  background-color: #7a5d5d;
   grid-area: Header;
 `;
 export const InfoWrapper = styled.div`
@@ -88,5 +88,5 @@ export const InfoWrapper = styled.div`
 `;
 export const DataDiv = styled.div`
   border: 1px solid;
-  background: gray;
+  background: #5d7a78;
 `;
